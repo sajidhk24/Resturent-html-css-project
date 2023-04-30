@@ -1,0 +1,116 @@
+#heading { 
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    font-style: bold;
+    font-family: 'Sigmar';
+    text-shadow: 1px 2px 2px black;
+    background-color: gray;
+    border: 2px;
+    border-radius: 15px;
+    color: rgb(149, 16, 16);
+    padding: 1px;
+    margin: 1px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px;
+    border-radius: 15px;
+    background-color: gray;
+    background-size: cover;
+    box-shadow: 5px 8px 8px;
+}
+
+ul li  {
+    list-style: none;
+    font-size: 1.2rem;
+    display:inline;
+    padding: 8px;
+    font-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(123, 21, 21);
+    border: 2px black;
+    padding:4px;
+    border-radius: 10px;
+    border: 2px black;
+}
+
+.btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 10px 10px 10px 15px;
+    border-color: black;
+    margin-top: 15px;
+    margin-left: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: red;
+    color:white;
+}
+
+img{
+    /* display: inline; */
+    height: 40vh;
+    width: 30vw;
+    padding: 3px black;
+    box-sizing: content-box;
+    box-shadow: 4px 6px 8px burlywood;
+}
+
+img:hover {
+    cursor: grab;
+    box-shadow: 5px 6px 12px black;
+}
+
+#container {
+    box-shadow: 8px 8px 8px;
+    margin: 5px;
+    border: 3px black;
+    border-radius: 8px;
+    display: grid;
+}
+
+p {
+    display: flow-root;
+    text-align: right;
+    display: block;
+    font-size: 1.3rem;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+section {
+    padding : 2px;
+    margin: 25px;
+    border: 10px black;
+    background-color: #f5ebe0;
+    box-shadow: 8px 8px 10px;
+} 
+
+h3 {
+    padding-right: 60px;
+    color: #264653;
+    text-align:right;
+    text-decoration: dashed;
+    text-shadow: 1px 3px 5px;
+    font-size: 2rem;
+}

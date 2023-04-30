@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 3px 10px 20px black;
+}
+
+#heading {
+    color: rgb(149, 16, 16);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+    border: 2px;
+    border-radius: 15px;
+    border-color: black;
+    margin-bottom: 10px;
+    box-shadow: 1px 5px 10px black;
+}
+
+fieldset #member{
+    border-color: black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 19px;
+    background: scroll;
+    /* background-color: azure; */
+    background-color: #8ecae6;
+    /* cursor: pointer; */
+    box-shadow: 3px 5px 5px black;
+}
+
+#memberlegend {
+    font-size: 1.2rem;
+    box-shadow: 3px 5px 5px black;
+}
+
+#top {
+    font-size: 1rem;
+    font-weight:500;
+    text-decoration: underline;
+    color: maroon;
+    margin-bottom: 3px;
+    box-shadow: 1px 3px 5px black;
+    display: inline;
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input [type="textarea"] {
+    width: 8vw;
+    height: 5vh;
+    padding-bottom:5px;
+}
+
+input {
+    text-align: center;
+    font-style: italic;
+}
+
+nav li {
+    list-style: none;
+    font-weight: 700;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav li a {
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav li a:hover {
+    color:white;
+    background-color: rgb(136, 26, 26);
+    border: 1px;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 0px 1px 1px;
+}
+
+#memberfield label {
+    display: inline;
+}
+
+footer a {
+    font-size: 1.2px;
+}
+
+footer {
+    list-style-type: none;
+    height:12vh;
+    border-radius: 20px;
+    background-color: grey;
+    margin-top: 0px;
+    box-shadow: 2px 4px 16px;
+}
+
+/* 
+body {
+    display: block;
+    text-align: center;
+    background-color: papayawhip;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20220509/pngtree-comic-style-question-mark-speech-bubble-background-image_1342405.jpg') no-repeat center center/cover ;
+
+}
+
+#myquery, #input {
+    border-radius: 20px;
+    border-width: 2px;
+    color: rgba(red, green, blue, alpha);
+    background-color: rgba( 255, 242, 212 , 0.7px);
+    backdrop-filter: blur(2px);
+}
+
+input {
+    border:2px solid black;
+}
+
+
+nav {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:12px;
+    border: 2px solid black;
+    border-radius:15px;
+}
+
+ul li {
+    list-style: none;
+    display: contents;
+}
+
+a {
+    margin: 3px;
+    padding: 2px;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: solid;
+} */

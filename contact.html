@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+
+    <title>Contact Page</title>
+
+</head>
+<body>
+    <div id="heading"><h1>Contact Us</h1></div>
+    <form action="#">
+        <fieldset id="first">
+            <section id="top">
+                <label for="typeofquery">Type of query: </label>
+                <select name="myquery" id="query">
+                    <option id="option1" value="sel">Select Type of Query</option>
+                    <option id="option2" value="ord">Order related query</option>
+                    <option id="option3" value="site">Site Type of Query</option>
+                    <option id="option4" value="other">Other</option>
+                </select>
+                <br>
+            </section>
+            <section id="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Names">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+                <label for="phonenumber"> Contact Number: </label>
+                <input type="text" name="number" id="number" placeholder="Enter Your Contact Number: " required>
+
+                <label>Elaborate Your Query!</label><br>
+                <input type="textarea" placeholder="Elaborate Your Query">
+
+                <fieldset id="memberfield">
+                    <legend id="memberlegend">Are You Member of Online-Shop</legend>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" value="yes" name="membership">
+                    <label for="no">No</label>
+                    <input type="radio" id="no" value="no" name="membership" checked>
+            </fieldset>
+            </section>
+        </fieldset>
+    </form>
+
+    <!-- an example of conic gradient -->
+    <!-- <div id="div1">
+    </div> -->
+</body>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="#">Home</a></li> -->
+        </ul>
+    </nav>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur labore sint quae atque quaerat in debitis vel. Error ea commodi ipsa consequuntur? Temporibus voluptatum beatae eveniet fugit deserunt enim? Ipsam.
+    </p>
+</footer>
+</html>
